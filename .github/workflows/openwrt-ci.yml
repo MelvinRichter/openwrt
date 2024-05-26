@@ -618,9 +618,6 @@ jobs:
           CONFIG_PACKAGE_procd=y
           CONFIG_PACKAGE_procd-seccomp=y
           CONFIG_PACKAGE_procd-ujail=y
-          CONFIG_PACKAGE_rpcd=y
-          CONFIG_PACKAGE_rpcd-mod-file=y
-          CONFIG_PACKAGE_rpcd-mod-ucode=y
           CONFIG_PACKAGE_ubox=y
           CONFIG_PACKAGE_ubus=y
           CONFIG_PACKAGE_ubusd=y
@@ -702,13 +699,11 @@ jobs:
           CONFIG_PACKAGE_MAC80211_MESH=y
           CONFIG_GOLANG_EXTERNAL_BOOTSTRAP_ROOT=""
           CONFIG_GOLANG_BUILD_CACHE_DIR=""
-          CONFIG_PACKAGE_lua=y
           CONFIG_LUA_ECO_MBEDTLS=y
           CONFIG_HAS_LUAJIT_ARCH=y
           CONFIG_RUST_SCCACHE_DIR=""
           CONFIG_PACKAGE_ucode=y
           CONFIG_PACKAGE_ucode-mod-fs=y
-          CONFIG_PACKAGE_ucode-mod-math=y
           CONFIG_PACKAGE_ucode-mod-nl80211=y
           CONFIG_PACKAGE_ucode-mod-rtnl=y
           CONFIG_PACKAGE_ucode-mod-ubus=y
@@ -763,10 +758,6 @@ jobs:
           CONFIG_PACKAGE_libf2fs=y
           CONFIG_PACKAGE_libiwinfo=y
           CONFIG_PACKAGE_libjson-c=y
-          CONFIG_PACKAGE_liblua=y
-          CONFIG_PACKAGE_liblucihttp=y
-          CONFIG_PACKAGE_liblucihttp-lua=y
-          CONFIG_PACKAGE_liblucihttp-ucode=y
           CONFIG_PACKAGE_libmnl=y
           CONFIG_PACKAGE_libnftnl=y
           CONFIG_PACKAGE_libnl-tiny=y
@@ -774,28 +765,16 @@ jobs:
           CONFIG_PACKAGE_libss=y
           CONFIG_PACKAGE_libubox=y
           CONFIG_PACKAGE_libubus=y
-          CONFIG_PACKAGE_libubus-lua=y
           CONFIG_PACKAGE_libuci=y
           CONFIG_PACKAGE_libuclient=y
           CONFIG_PACKAGE_libucode=y
           CONFIG_PACKAGE_libudebug=y
           CONFIG_PACKAGE_libustream-mbedtls=y
           CONFIG_PACKAGE_libuuid=y
-          CONFIG_PACKAGE_rpcd-mod-luci=y
-          CONFIG_PACKAGE_luci-base=y
           CONFIG_LUCI_JSMIN=y
           CONFIG_LUCI_CSSTIDY=y
-          CONFIG_PACKAGE_luci-lua-runtime=y
-          CONFIG_PACKAGE_luci-theme-bootstrap=y
-          CONFIG_PACKAGE_luci-theme-material=y
-          CONFIG_PACKAGE_luci-theme-openwrt=y
-          CONFIG_PACKAGE_luci-lib-base=y
-          CONFIG_PACKAGE_luci-lib-ip=y
-          CONFIG_PACKAGE_luci-lib-jsonc=y
-          CONFIG_PACKAGE_luci-lib-nixio=y
           CONFIG_PACKAGE_nftables-json=y
           CONFIG_PACKAGE_knot-resolver_dnstap=y
-          CONFIG_PACKAGE_cgi-io=y
           CONFIG_PACKAGE_hostapd-common=y
           CONFIG_WPA_MSG_MIN_PRIORITY=3
           CONFIG_DRIVER_11AC_SUPPORT=y
@@ -820,8 +799,6 @@ jobs:
           CONFIG_PACKAGE_losetup=y
           CONFIG_STRACE_NONE=y
           CONFIG_PACKAGE_ubi-utils=y
-          CONFIG_PACKAGE_ucode-mod-html=y
-          CONFIG_PACKAGE_ucode-mod-lua=y
           
           EOF
 
